@@ -1,0 +1,25 @@
+site_name: MkDocs Example
+docs_dir: 'mkdocs'
+site_author: Titus Owuor
+site_favicon: favicon.ico
+site_dir: 'docs/static/mkdocs_build'
+repo_url: https://github.com/titusowuor30/mkdocs-example/
+copyright: &copy TDBSoft 2021
+google_analytics: ['UA-36723568-3', 'mkdocs.org']
+theme: 
+    name: material
+nav:
+  - Dashboard: index.md
+  - User Guide:
+    - 'Booking your tour': 'user-guide/book-tour.md'
+    - 'Help': 'user-guide/help.md'
+  - About:
+    - 'License': 'about/license.md'
+    - 'Intro': 'about/about.md'
+markdown_extensions:
+  - attr_list
+  - md_in_html
+extra_css:
+    - css/extra.css
+extra_javascript:
+    - js/extra.js 
