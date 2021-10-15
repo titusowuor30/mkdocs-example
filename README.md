@@ -1,20 +1,57 @@
 # mkdocs-example with django 
 ## The docs has been customized with django but can still be run as standalone
 ### Follow the steps bellow to run as standalone in windows enviroment
-* Step 1
-# move into the project directory
+* Steps
+#### Install python and create a viryual enviroment
+```shell
+#install virtualenv
+py -m pip install --user virtualenv
+#create virtaul enviroment
+py -m venv env
+#activate it
+.\env\Scripts\activate
+```
+#### move into the project directory
 ```shell
 cd mkdocs-example
 ```
-# install requirements
+#### install requirements
 ```shell
 pip install -r requirements.txt
 ```
-# buid the docs
+#### buid the docs
 ```script
 mkdocs build
 ```
-# run the server
+#### run the server
 ```shell
 mkdocs serve
 ```
+### Follow the steps bellow to run with django in windows enviroment
+* Steps
+#### Install python and create a viryual enviroment
+```shell
+#install virtualenv
+py -m pip install --user virtualenv
+#create virtaul enviroment
+py -m venv env
+#activate it
+.\env\Scripts\activate
+```
+#### move into the project directory
+```shell
+cd mkdocs-example
+```
+#### install requirements
+```shell
+pip install -r requirements.txt
+```
+#### buid the docs
+```script
+mkdocs build
+```
+#### run the server
+```shell
+python manage.py runserver
+```
+#### Navigate to <a href="http:127.0.0.1:8000">http:127.0.0.1:8000</a> to see the docs
