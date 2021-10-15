@@ -2,19 +2,19 @@
 ## The docs has been customized with django but can still be run as standalone
 ### Follow the steps bellow to run as standalone in windows enviroment
 * Step 1
-#move into the project directory
+# move into the project directory
 ```shell
 cd mkdocs-example
 ```
-#install requirements
+# install requirements
 ```shell
 pip install -r requirements.txt
 ```
-#buid the docs
+# buid the docs
 ```script
 mkdocs build
 ```
-#run the server
+# run the server
 ```shell
 mkdocs serve
 ```
