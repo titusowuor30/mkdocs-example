@@ -11,6 +11,10 @@ py -m venv env
 #activate it
 .\env\Scripts\activate
 ```
+#### Clone the repo
+```shell
+git clone https://github.com/titusowuor30/mkdocs-example.git
+```
 #### move into the project directory
 ```shell
 cd mkdocs-example
@@ -37,6 +41,10 @@ py -m pip install --user virtualenv
 py -m venv env
 #activate it
 .\env\Scripts\activate
+```
+#### Clone the repo
+```shell
+git clone https://github.com/titusowuor30/mkdocs-example.git
 ```
 #### move into the project directory
 ```shell
