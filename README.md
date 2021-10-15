@@ -62,4 +62,4 @@ mkdocs build
 ```shell
 python manage.py runserver
 ```
-#### Navigate to <a href="http:127.0.0.1:8000">http:127.0.0.1:8000</a> to see the docs
+#### Navigate to <a href="https://mkdocs.readthedocs.io/en/0.15.3/user-guide/writing-your-docs/">http:127.0.0.1:8000</a> to see the docs
